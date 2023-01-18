@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    margin-top: -20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 150px;
+}
+
+button {
+    margin: 0 4px;
+}
+
+.style-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.place-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.group {
+    padding: 0 4px;
+}
+
+.length {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.place-items input:nth-child(5) {
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.length, .password {
+    padding: 0 10px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn button {
+    background: transparent;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+.btn button:hover {
+    background-color: rgb(228, 228, 228);
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+
+.btn button:disabled {
+    background-color: rgb(228, 228, 228);
+    border-color: rgb(228, 228, 228);
+    cursor: initial;
+}
+
+.btn span button:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
